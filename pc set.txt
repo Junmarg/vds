@@ -1,0 +1,45 @@
+1. uac setting
+
+2. window suggest off
+
+3. 윈도우 클린부팅
+msconfig > 일반 > 선택모드 >시작항목로드해제
+	> 서비스 > 모든 microsoft 서비스 숨긴 후 전체 선택하여 사용안함(리부팅)
+
+
+4. window defender
+security > realtimeprotection off
+
+
+5. widowupdateoff
+services > window update > disabled > recovery > take no action
+
+gpedit.msc > 관리템플릿 > 윈도우 구성요소 >윈도우 업데이트 > disable
+
+5. ip setting
+only num1 set
+
+6. 복구 모드 해제
+recover.bat
+
+7. sdk설치
+mysql 설치    ID: root  PW:hbrain0372!
+pcan2usb 2
+ptz 2 ID: admin PW:1q2w3e4r!
+
+8. Windows PowerShell 명령어
+
+Get-AppxPackage *3dbuilder* | Remove-AppxPackage
+Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage 
+Get-AppxPackage *skypeapp* | Remove-AppxPackage
+Get-AppxPackage *zunemusic* | Remove-AppxPackage 
+Get-AppxPackage *windowsmaps* | Remove-AppxPackage
+Get-AppxPackage *solitairecollection* | Remove-AppxPackage
+Get-AppxPackage *bingfinance* | Remove-AppxPackage
+Get-AppxPackage *bingnews* | Remove-AppxPackage
+Get-AppxPackage *onenote* | Remove-AppxPackage
+Get-AppxPackage *windowsphone* | Remove-AppxPackage
+Get-AppxPackage *bingsports* | Remove-AppxPackage
+Get-AppxPackage *soundrecorder* | Remove-AppxPackage
+Get-AppxPackage *bingweather* | Remove-AppxPackage
+Get-AppxPackage *xboxapp* | Remove-AppxPackage
